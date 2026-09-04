@@ -7,7 +7,7 @@ about:
   head: f84cd4c
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:42:40Z
+  collectedAt: 2026-09-04T20:52:42Z
 timeline:
   created: 2018-10-22
   lastCommit: 2026-08-30
@@ -85,6 +85,69 @@ total:
   openIssue: 55
   commit: 4696
 ---
+path: /home/runner/.x-repo/github.com/alsa-project/alsa-lib
+collectedAt: 2026-09-04T20:52:44Z
+loc:
+  C:
+    code: 85665
+    comments: 23729
+    blanks: 9828
+    files: 150
+  CHeader:
+    code: 13476
+    comments: 7898
+    blanks: 2325
+    files: 87
+  Bitbake:
+    code: 9300
+    comments: 468
+    blanks: 555
+    files: 79
+  Automake:
+    code: 600
+    comments: 9
+    blanks: 134
+    files: 28
+  M4:
+    code: 431
+    comments: 88
+    blanks: 50
+    files: 4
+  Autoconf:
+    code: 381
+    comments: 26
+    blanks: 64
+    files: 5
+  Python:
+    code: 232
+    comments: 10
+    blanks: 46
+    files: 3
+  Bash:
+    code: 124
+    comments: 3
+    blanks: 16
+    files: 2
+  Svg:
+    code: 4
+    comments: 128
+    blanks: 0
+    files: 4
+  Markdown:
+    code: 0
+    comments: 16
+    blanks: 9
+    files: 1
+  Text:
+    code: 0
+    comments: 427
+    blanks: 87
+    files: 2
+total:
+  code: 110213
+  comments: 32802
+  blanks: 13114
+  files: 365
 ---
 date: "2026-08-24"
 repo:
