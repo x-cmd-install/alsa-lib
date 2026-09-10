@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:48:26Z
+  collectedAt: 2026-09-10T16:36:46Z
 timeline:
   created: 2018-10-22
   lastCommit: 2026-08-30
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 494
   watcher: 18
-  fork: 220
+  fork: 221
   release: 0
   contributor: 195
   pullRequest: 141
@@ -88,7 +88,7 @@ total:
   commit: 4696
 ---
 path: /home/runner/.x-repo/github.com/alsa-project/alsa-lib
-collectedAt: 2026-09-10T04:48:30Z
+collectedAt: 2026-09-10T16:36:49Z
 loc:
   C:
     code: 85665
