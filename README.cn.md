@@ -4,7 +4,7 @@
 
 The Advanced Linux Sound Architecture (ALSA) - library
 
-![alsa-lib](https://repo.x-cmd.io/alsa-lib.svg?lang=zh)
+[![x-cmd/install — alsa-lib Code Quality Monitoring Repo Card](https://repo.x-cmd.io/alsa-lib.svg?lang=zh)](https://x-cmd.com/install/alsa-lib)
 
 ## 安装
 
@@ -45,18 +45,18 @@ x install alsa-lib
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 2 · **开放 PR**: 16 · **已关闭 issue**: 316 · **开放 issue**: 57 · **提交数**: 4696
+- **发布数**: 0 · **已合并 PR**: 2 · **开放 PR**: 18 · **已关闭 issue**: 316 · **开放 issue**: 57 · **提交数**: 4696
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 3 | 0 | 2 | 1 |
-| last60d | 2026-07-20 | 0 | 0 | 6 | 1 | 3 | 7 |
-| 90d | 2026-06-20 | 0 | 0 | 6 | 2 | 4 | 7 |
-| last180d | 2026-03-22 | 0 | 0 | 7 | 8 | 7 | 23 |
-| 360d | 2025-09-23 | 0 | 0 | 10 | 17 | 9 | 145 |
-| last720d | 2024-09-28 | 0 | 0 | 10 | 58 | 20 | 209 |
+| 30d | 2026-08-21 | 0 | 0 | 4 | 0 | 2 | 1 |
+| last60d | 2026-07-22 | 0 | 0 | 6 | 1 | 3 | 7 |
+| 90d | 2026-06-22 | 0 | 0 | 8 | 2 | 4 | 7 |
+| last180d | 2026-03-24 | 0 | 0 | 9 | 8 | 7 | 23 |
+| 360d | 2025-09-25 | 0 | 0 | 12 | 17 | 9 | 145 |
+| last720d | 2024-09-30 | 0 | 0 | 12 | 58 | 20 | 209 |
 
 ## 改进这些数据
 
@@ -67,4 +67,4 @@ alsa-lib 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:41:30Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:00:03Z._
