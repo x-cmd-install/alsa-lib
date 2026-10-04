@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 18 · **Closed issues**: 316 · **Open issues**: 57 · **Commits**: 4696
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 19 · **Closed issues**: 316 · **Open issues**: 57 · **Commits**: 4696
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 0 | 4 | 0 | 2 | 0 |
-| last60d | 2026-08-04 | 0 | 0 | 5 | 1 | 3 | 1 |
-| 90d | 2026-07-05 | 0 | 0 | 8 | 1 | 4 | 7 |
-| last180d | 2026-04-06 | 0 | 0 | 9 | 8 | 7 | 23 |
-| 360d | 2025-10-08 | 0 | 0 | 12 | 17 | 9 | 145 |
-| last720d | 2024-10-13 | 0 | 0 | 12 | 58 | 20 | 209 |
+| 30d | 2026-09-04 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-08-05 | 0 | 0 | 6 | 1 | 3 | 1 |
+| 90d | 2026-07-06 | 0 | 0 | 9 | 1 | 3 | 7 |
+| last180d | 2026-04-07 | 0 | 0 | 10 | 8 | 7 | 23 |
+| 360d | 2025-10-09 | 0 | 0 | 13 | 17 | 9 | 145 |
+| last720d | 2024-10-14 | 0 | 0 | 13 | 58 | 20 | 209 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:23:55Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T05:45:21Z._
