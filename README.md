@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 498 · **Forks**: 226 · **Open issues**: 373 · **Contributors**: 195
+- **Stars**: 498 · **Forks**: 226 · **Open issues**: 374 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 19 · **Closed issues**: 316 · **Open issues**: 57 · **Commits**: 4696
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 19 · **Closed issues**: 316 · **Open issues**: 58 · **Commits**: 4696
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-08-08 | 0 | 0 | 6 | 1 | 3 | 1 |
-| 90d | 2026-07-09 | 0 | 0 | 9 | 1 | 3 | 7 |
-| last180d | 2026-04-10 | 0 | 0 | 10 | 8 | 6 | 23 |
-| 360d | 2025-10-12 | 0 | 0 | 13 | 17 | 9 | 145 |
-| last720d | 2024-10-17 | 0 | 0 | 13 | 57 | 20 | 209 |
+| 30d | 2026-09-08 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-08-09 | 0 | 0 | 6 | 1 | 3 | 1 |
+| 90d | 2026-07-10 | 0 | 0 | 9 | 1 | 4 | 7 |
+| last180d | 2026-04-11 | 0 | 0 | 10 | 8 | 7 | 23 |
+| 360d | 2025-10-13 | 0 | 0 | 13 | 17 | 10 | 145 |
+| last720d | 2024-10-18 | 0 | 0 | 13 | 57 | 21 | 209 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:51:45Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:02:09Z._
