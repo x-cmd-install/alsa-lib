@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **SAST** (0/10) — no SAST tool detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 19 · **Closed issues**: 316 · **Open issues**: 59 · **Commits**: 4696
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 20 · **Closed issues**: 316 · **Open issues**: 59 · **Commits**: 4696
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 0 | 4 | 0 | 2 | 0 |
-| last60d | 2026-08-13 | 0 | 0 | 6 | 1 | 4 | 1 |
-| 90d | 2026-07-14 | 0 | 0 | 9 | 1 | 5 | 7 |
-| last180d | 2026-04-15 | 0 | 0 | 10 | 8 | 8 | 23 |
-| 360d | 2025-10-17 | 0 | 0 | 13 | 17 | 11 | 145 |
-| last720d | 2024-10-22 | 0 | 0 | 13 | 54 | 22 | 208 |
+| 30d | 2026-09-13 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-08-14 | 0 | 0 | 7 | 1 | 4 | 1 |
+| 90d | 2026-07-15 | 0 | 0 | 10 | 1 | 5 | 7 |
+| last180d | 2026-04-16 | 0 | 0 | 11 | 8 | 8 | 23 |
+| 360d | 2025-10-18 | 0 | 0 | 14 | 17 | 11 | 145 |
+| last720d | 2024-10-23 | 0 | 0 | 14 | 54 | 22 | 208 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T05:56:56Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:51:10Z._
