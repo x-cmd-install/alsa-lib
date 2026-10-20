@@ -14,12 +14,12 @@ x install alsa-lib
 
 ## Code insight
 
-Total: **110,274** lines of code across **348** files in the top 5 languages.
+Total: **110,318** lines of code across **348** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 85,726 | 23,729 | 9,831 | 150 |
-| CHeader | 13,476 | 7,898 | 2,325 | 87 |
+| C | 85,768 | 23,741 | 9,836 | 150 |
+| CHeader | 13,477 | 7,898 | 2,326 | 87 |
 | Bitbake | 9,300 | 468 | 555 | 79 |
 | Automake | 600 | 9 | 134 | 28 |
 | M4 | 431 | 88 | 50 | 4 |
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 22 · **Closed issues**: 316 · **Open issues**: 60 · **Commits**: 4701
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 21 · **Closed issues**: 316 · **Open issues**: 60 · **Commits**: 4705
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 4 | 0 | 3 | 5 |
-| last60d | 2026-08-20 | 0 | 0 | 9 | 0 | 5 | 6 |
-| 90d | 2026-07-21 | 0 | 0 | 10 | 1 | 6 | 12 |
-| last180d | 2026-04-22 | 0 | 0 | 13 | 8 | 8 | 28 |
-| 360d | 2025-10-24 | 0 | 0 | 16 | 17 | 12 | 149 |
-| last720d | 2024-10-29 | 0 | 0 | 16 | 52 | 22 | 212 |
+| 30d | 2026-09-20 | 0 | 0 | 4 | 0 | 3 | 9 |
+| last60d | 2026-08-21 | 0 | 0 | 7 | 0 | 5 | 10 |
+| 90d | 2026-07-22 | 0 | 0 | 9 | 1 | 6 | 16 |
+| last180d | 2026-04-23 | 0 | 0 | 12 | 8 | 8 | 32 |
+| 360d | 2025-10-25 | 0 | 0 | 15 | 17 | 12 | 153 |
+| last720d | 2024-10-30 | 0 | 0 | 15 | 52 | 22 | 216 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T04:43:08Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T04:47:52Z._
