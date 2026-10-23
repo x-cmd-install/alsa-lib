@@ -41,7 +41,7 @@ x install alsa-lib
 
 ## 流行度
 
-- **Star**: 502 · **Fork**: 228 · **开放 issue**: 378 · **贡献者**: 196
+- **Star**: 501 · **Fork**: 228 · **开放 issue**: 378 · **贡献者**: 196
 
 ## 累计统计
 
@@ -51,12 +51,31 @@ x install alsa-lib
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 4 | 0 | 5 | 9 |
-| last60d | 2026-08-23 | 0 | 0 | 7 | 0 | 7 | 10 |
-| 90d | 2026-07-24 | 0 | 0 | 9 | 1 | 8 | 16 |
-| last180d | 2026-04-25 | 0 | 0 | 12 | 8 | 10 | 32 |
-| 360d | 2025-10-27 | 0 | 0 | 15 | 17 | 14 | 153 |
-| last720d | 2024-11-01 | 0 | 0 | 15 | 52 | 24 | 216 |
+| 30d | 2026-09-23 | 0 | 0 | 4 | 0 | 5 | 9 |
+| last60d | 2026-08-24 | 0 | 0 | 7 | 0 | 7 | 10 |
+| 90d | 2026-07-25 | 0 | 0 | 9 | 1 | 8 | 16 |
+| last180d | 2026-04-26 | 0 | 0 | 12 | 8 | 10 | 32 |
+| 360d | 2025-10-28 | 0 | 0 | 15 | 17 | 14 | 153 |
+| last720d | 2024-11-02 | 0 | 0 | 15 | 52 | 24 | 216 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/alsa-lib) 上共有 **274** 个发行版报告此项目。**76** 个 ✅ 已是最新上游版本，**147** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.2.14` | 🪦 legacy |
+| Debian 14 | `1.2.14` | 🪦 legacy |
+| Debian 13 | `1.2.14` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.2.15.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.2.11` | ⚠️ outdated |
+| Arch | `1.2.16.1` | ✅ latest |
+| Homebrew | `1.2.16.1` | ✅ latest |
+| Fedora rawhide | `1.2.16.1` | ✅ latest |
+| Nix unstable | `1.2.16.1` | ✅ latest |
+| Void | `1.2.16.1` | ✅ latest |
+| Alpine edge | `1.2.16.1` | ✅ latest |
+| openSUSE Tumbleweed | `1.2.16.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -67,4 +86,4 @@ alsa-lib 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:41:22Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:41:06Z._
