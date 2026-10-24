@@ -41,26 +41,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 501 · **Forks**: 228 · **Open issues**: 378 · **Contributors**: 196
+- **Stars**: 501 · **Forks**: 229 · **Open issues**: 378 · **Contributors**: 196
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 21 · **Closed issues**: 316 · **Open issues**: 62 · **Commits**: 4705
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 22 · **Closed issues**: 316 · **Open issues**: 62 · **Commits**: 4705
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 4 | 0 | 5 | 9 |
-| last60d | 2026-08-24 | 0 | 0 | 7 | 0 | 7 | 10 |
-| 90d | 2026-07-25 | 0 | 0 | 9 | 1 | 8 | 16 |
-| last180d | 2026-04-26 | 0 | 0 | 12 | 8 | 10 | 32 |
-| 360d | 2025-10-28 | 0 | 0 | 15 | 17 | 14 | 153 |
-| last720d | 2024-11-02 | 0 | 0 | 15 | 52 | 24 | 216 |
+| 30d | 2026-09-24 | 0 | 0 | 5 | 0 | 5 | 9 |
+| last60d | 2026-08-25 | 0 | 0 | 8 | 0 | 7 | 10 |
+| 90d | 2026-07-26 | 0 | 0 | 10 | 1 | 8 | 16 |
+| last180d | 2026-04-27 | 0 | 0 | 13 | 8 | 10 | 32 |
+| 360d | 2025-10-29 | 0 | 0 | 16 | 17 | 14 | 153 |
+| last720d | 2024-11-03 | 0 | 0 | 16 | 52 | 24 | 216 |
 
 ## Distribution status
 
-Reported by **274** distros on [repology.org](https://repology.org/project/alsa-lib). **76** are ✅ on the latest upstream release, **147** are ⚠️ on an older version.
+Reported by **276** distros on [repology.org](https://repology.org/project/alsa-lib). **79** are ✅ on the latest upstream release, **146** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T04:41:05Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:52:31Z._
