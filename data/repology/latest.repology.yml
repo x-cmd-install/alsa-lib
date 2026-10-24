@@ -1,15 +1,15 @@
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.1.2
-  origversion: 1.2.1.2-3.el8
+- repo: conancenter
+  srcname: libalsa
+  visiblename: libalsa
+  version: 1.2.10
+  origversion: null
   status: legacy
-  summary: The Advanced Linux Sound Architecture (ALSA) library
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
+- repo: conancenter
+  srcname: libalsa
+  visiblename: libalsa
+  version: 1.2.7.2
+  origversion: null
+  status: legacy
 - repo: eurolinux_8
   subrepo: appstream
   srcname: alsa-lib
@@ -46,69 +46,6 @@
     - LGPLv2+
   categories:
     - System Environment/Libraries
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.16.1
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.5.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.6.1
-  origversion: 1.2.6.1-3.el8
-  status: outdated
-  summary: The Advanced Linux Sound Architecture (ALSA) library
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: alsa-lib
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.16.1
-  origversion: 1.2.16.1-1
-  status: newest
-  summary: An alternative implementation of Linux sound support
-  licenses:
-    - LGPL-2.1-or-later
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-alsa-lib
-  binname: lib32-alsa-lib
-  visiblename: lib32-alsa-lib
-  version: 1.2.16.1
-  origversion: 1.2.16.1-1
-  status: newest
-  summary: An alternative implementation of Linux sound support (32 bit)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-alsa-lib
-  binname: lib32-alsa-lib
-  visiblename: lib32-alsa-lib
-  version: 1.2.16.1
-  origversion: 1.2.16.1-1
-  status: newest
-  summary: An alternative implementation of Linux sound support (32 bit)
-  licenses:
-    - LGPL-2.1-or-later
 - repo: carbs
   subrepo: extra
   srcname: alsa-lib
@@ -121,6 +58,27 @@
     - cem@carbslinux.org
   licenses:
     - LGPL-2.1-or-later
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.6.1
+  origversion: 1.2.6.1-3.el8
+  status: outdated
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+- repo: chromebrew
+  srcname: alsa_lib
+  visiblename: alsa_lib
+  version: 1.2.16.1
+  origversion: null
+  status: newest
+  summary: The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
+  licenses:
+    - LGPL-2.1
 - repo: adelie_current
   subrepo: user
   srcname: alsa-lib
@@ -256,154 +214,142 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
-- repo: manjaro_unstable
-  subrepo: multilib
-  srcname: lib32-alsa-lib
-  binname: lib32-alsa-lib
-  visiblename: lib32-alsa-lib
+- repo: alpine_3_18
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dbg
+  visiblename: alsa-lib-dbg
+  version: 1.2.9
+  origversion: 1.2.9-r1
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_18
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dev
+  visiblename: alsa-lib-dev
+  version: 1.2.9
+  origversion: 1.2.9-r1
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.10
+  origversion: 1.2.10-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dbg
+  visiblename: alsa-lib-dbg
+  version: 1.2.10
+  origversion: 1.2.10-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dev
+  visiblename: alsa-lib-dev
+  version: 1.2.10
+  origversion: 1.2.10-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.11
+  origversion: 1.2.11-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dbg
+  visiblename: alsa-lib-dbg
+  version: 1.2.11
+  origversion: 1.2.11-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dev
+  visiblename: alsa-lib-dev
+  version: 1.2.11
+  origversion: 1.2.11-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.12
+  origversion: 1.2.12-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: alsa-lib
+  binname: alsa-lib-dbg
+  visiblename: alsa-lib-dbg
+  version: 1.2.12
+  origversion: 1.2.12-r0
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: conancenter
+  srcname: libalsa
+  visiblename: libalsa
   version: 1.2.16.1
-  origversion: 1.2.16.1-1
+  origversion: null
   status: newest
-  summary: An alternative implementation of Linux sound support (32 bit)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_18
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dbg
-  visiblename: alsa-lib-dbg
-  version: 1.2.9
-  origversion: 1.2.9-r1
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_18
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dev
-  visiblename: alsa-lib-dev
-  version: 1.2.9
-  origversion: 1.2.9-r1
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.10
-  origversion: 1.2.10-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dbg
-  visiblename: alsa-lib-dbg
-  version: 1.2.10
-  origversion: 1.2.10-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dev
-  visiblename: alsa-lib-dev
-  version: 1.2.10
-  origversion: 1.2.10-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.11
-  origversion: 1.2.11-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dbg
-  visiblename: alsa-lib-dbg
-  version: 1.2.11
-  origversion: 1.2.11-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dev
-  visiblename: alsa-lib-dev
-  version: 1.2.11
-  origversion: 1.2.11-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.12
-  origversion: 1.2.12-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: alsa-lib
-  binname: alsa-lib-dbg
-  visiblename: alsa-lib-dbg
-  version: 1.2.12
-  origversion: 1.2.12-r0
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: distri
-  srcname: alsa-lib
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.1.8
-  origversion: 1.1.8-7
-  status: outdated
 - repo: alpine_3_21
   subrepo: main
   srcname: alsa-lib
@@ -506,17 +452,6 @@
   summary: Advanced Linux Sound Architecture (ALSA) library
   maintainers:
     - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: nix_stable_24_05
-  srcname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.11
-  origversion: null
-  status: outdated
-  summary: ALSA, the Advanced Linux Sound Architecture libraries
-  maintainers:
-    - las@protonmail.ch
   licenses:
     - LGPL-2.1-or-later
 - repo: alpine_3_24
@@ -753,20 +688,6 @@
     - jordi@debian.org
     - riesebie@lxtec.de
     - themuso@ubuntu.com
-- repo: centos_stream_8
-  subrepo: AppStream
-  srcname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.9
-  origversion: 1.2.9-1.el8
-  status: legacy
-  summary: The Advanced Linux Sound Architecture (ALSA) library
-  maintainers:
-    - builder@centos.org
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
 - repo: apertis_v2027
   subrepo: v2027dev1/target
   srcname: alsa-lib
@@ -1044,6 +965,20 @@
     - LGPLv2+
   categories:
     - System Environment/Libraries
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.9
+  origversion: 1.2.9-1.el8
+  status: legacy
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  maintainers:
+    - builder@centos.org
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: alsa-lib
@@ -1276,33 +1211,6 @@
   summary: Advanced Linux Sound Architecture library (development files)
   licenses:
     - LGPL-2.1-or-later
-- repo: chromebrew
-  srcname: alsa_lib
-  visiblename: alsa_lib
-  version: 1.2.16.1
-  origversion: null
-  status: newest
-  summary: The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
-  licenses:
-    - LGPL-2.1
-- repo: conancenter
-  srcname: libalsa
-  visiblename: libalsa
-  version: 1.2.16.1
-  origversion: null
-  status: newest
-- repo: conancenter
-  srcname: libalsa
-  visiblename: libalsa
-  version: 1.2.10
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: libalsa
-  visiblename: libalsa
-  version: 1.2.7.2
-  origversion: null
-  status: legacy
 - repo: conancenter
   srcname: libalsa
   visiblename: libalsa
@@ -1349,38 +1257,6 @@
   summary: ALSA libraries
   maintainers:
     - compat-32-ports@crux.nu
-- repo: pclinuxos
-  srcname: libalsa2
-  visiblename: libalsa2
-  version: 1.2.16.1
-  origversion: 1.2.16.1-1pclos2026
-  status: newest
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  categories:
-    - Sound
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: alsa-lib
-  binnames:
-    - libasound2
-    - libasound2-dev
-    - libasound2-data
-    - libasound2-udeb
-    - libasound2-doc
-    - libasound2-plugin-smixer
-    - libatopology2
-    - libatopology-dev
-  visiblename: alsa-lib
-  version: 1.2.4
-  origversion: 1.2.4-1.1
-  status: outdated
-  maintainers:
-    - pkg-alsa-devel@lists.alioth.debian.org
-    - jordi@debian.org
-    - riesebie@lxtec.de
-    - themuso@ubuntu.com
-  categories:
-    - libs
 - repo: debian_11
   subrepo: bullseye-security/main
   srcname: alsa-lib
@@ -1396,6 +1272,29 @@
   visiblename: alsa-lib
   version: 1.2.4
   origversion: 1.2.4-1.1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-alsa-devel@lists.alioth.debian.org
+    - jordi@debian.org
+    - riesebie@lxtec.de
+    - themuso@ubuntu.com
+  categories:
+    - libs
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: alsa-lib
+  binnames:
+    - libasound2
+    - libasound2-dev
+    - libasound2-data
+    - libasound2-udeb
+    - libasound2-doc
+    - libasound2-plugin-smixer
+    - libatopology2
+    - libatopology-dev
+  visiblename: alsa-lib
+  version: 1.2.4
+  origversion: 1.2.4-1.1
   status: outdated
   maintainers:
     - pkg-alsa-devel@lists.alioth.debian.org
@@ -1496,6 +1395,25 @@
     - themuso@ubuntu.com
   categories:
     - libs
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: alsa-lib
+  binnames:
+    - alsa-lib
+    - alsa-lib-devel
+    - alsa-ucm
+    - alsa-topology
+    - alsa-lib-debuginfo
+    - alsa-lib-debugsource
+  visiblename: alsa-lib
+  version: 1.2.10
+  origversion: 1.2.10-2.el9
+  status: outdated
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
 - repo: debian_14
   subrepo: forky/main
   srcname: alsa-lib
@@ -1676,15 +1594,6 @@
     - jordi@debian.org
     - riesebie@lxtec.de
     - themuso@ubuntu.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.2.5.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: alsa-lib
@@ -1731,25 +1640,25 @@
     - themuso@ubuntu.com
   categories:
     - libs
-- repo: eurolinux_9
+- repo: distri
+  srcname: alsa-lib
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.1.8
+  origversion: 1.1.8-7
+  status: outdated
+- repo: eurolinux_8
   subrepo: appstream
   srcname: alsa-lib
-  binnames:
-    - alsa-lib
-    - alsa-lib-devel
-    - alsa-ucm
-    - alsa-topology
-    - alsa-lib-debuginfo
-    - alsa-lib-debugsource
   visiblename: alsa-lib
-  version: 1.2.10
-  origversion: 1.2.10-2.el9
-  status: outdated
+  version: 1.2.1.2
+  origversion: 1.2.1.2-3.el8
+  status: legacy
   summary: The Advanced Linux Sound Architecture (ALSA) library
   licenses:
     - LGPLv2+
   categories:
-    - Unspecified
+    - System Environment/Libraries
 - repo: eurolinux_9
   subrepo: appstream
   srcname: alsa-lib
@@ -1876,25 +1785,23 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-sound
-- repo: fedora_39
-  subrepo: updates
-  srcname: alsa-lib
+- repo: mageia_10
+  subrepo: core/updates
+  srcname: libalsa2
   binnames:
-    - alsa-lib
-    - alsa-lib-devel
-    - alsa-ucm
-    - alsa-topology
-    - alsa-lib-debuginfo
-    - alsa-lib-debugsource
-  visiblename: alsa-lib
-  version: 1.2.12
-  origversion: 1.2.12-1.fc39
+    - libalsa2
+    - libalsa-data
+    - libalsa2-devel
+    - libalsa2-docs
+  visiblename: libalsa2
+  version: 1.2.15.2
+  origversion: 2:1.2.15.2-1.1.mga10
   status: outdated
-  summary: The Advanced Linux Sound Architecture (ALSA) library
+  summary: Advanced Linux Sound Architecture (ALSA) library
   licenses:
-    - LGPL-2.1-or-later
+    - LGPLv2+
   categories:
-    - Unspecified
+    - Sound/Utilities
 - repo: fedora_39
   subrepo: release
   srcname: alsa-lib
@@ -1909,6 +1816,25 @@
   version: 1.2.10
   origversion: 1.2.10-3.fc39
   status: legacy
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: alsa-lib
+  binnames:
+    - alsa-lib
+    - alsa-lib-devel
+    - alsa-ucm
+    - alsa-topology
+    - alsa-lib-debuginfo
+    - alsa-lib-debugsource
+  visiblename: alsa-lib
+  version: 1.2.12
+  origversion: 1.2.12-1.fc39
+  status: outdated
   summary: The Advanced Linux Sound Architecture (ALSA) library
   licenses:
     - LGPL-2.1-or-later
@@ -1986,23 +1912,17 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: alsa-lib
-  binnames:
-    - alsa-lib
-    - alsa-lib-devel
-    - alsa-ucm
-    - alsa-topology
-  visiblename: alsa-lib
-  version: 1.2.15.3
-  origversion: 1.2.15.3-1.fc42
-  status: outdated
-  summary: The Advanced Linux Sound Architecture (ALSA) library
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-alsa-lib
+  binname: lib32-alsa-lib
+  visiblename: lib32-alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: An alternative implementation of Linux sound support (32 bit)
   licenses:
     - LGPL-2.1-or-later
-  categories:
-    - Unspecified
 - repo: fedora_42
   subrepo: release
   srcname: alsa-lib
@@ -2020,8 +1940,8 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: alsa-lib
   binnames:
     - alsa-lib
@@ -2029,9 +1949,9 @@
     - alsa-ucm
     - alsa-topology
   visiblename: alsa-lib
-  version: 1.2.14
-  origversion: 1.2.14-4.fc43
-  status: legacy
+  version: 1.2.15.3
+  origversion: 1.2.15.3-1.fc42
+  status: outdated
   summary: The Advanced Linux Sound Architecture (ALSA) library
   licenses:
     - LGPL-2.1-or-later
@@ -2054,8 +1974,8 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: alsa-lib
   binnames:
     - alsa-lib
@@ -2063,9 +1983,9 @@
     - alsa-ucm
     - alsa-topology
   visiblename: alsa-lib
-  version: 1.2.16.1
-  origversion: 1.2.16.1-1.fc44
-  status: newest
+  version: 1.2.14
+  origversion: 1.2.14-4.fc43
+  status: legacy
   summary: The Advanced Linux Sound Architecture (ALSA) library
   licenses:
     - LGPL-2.1-or-later
@@ -2083,6 +2003,23 @@
   version: 1.2.15.3
   origversion: 1.2.15.3-3.fc44
   status: legacy
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: alsa-lib
+  binnames:
+    - alsa-lib
+    - alsa-lib-devel
+    - alsa-ucm
+    - alsa-topology
+  visiblename: alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1.fc44
+  status: newest
   summary: The Advanced Linux Sound Architecture (ALSA) library
   licenses:
     - LGPL-2.1-or-later
@@ -2141,7 +2078,7 @@
     - emulation@freebsd.org
   categories:
     - audio
-- repo: manjaro_unstable
+- repo: manjaro_testing
   subrepo: extra
   srcname: alsa-lib
   binname: alsa-lib
@@ -2152,6 +2089,17 @@
   summary: An alternative implementation of Linux sound support
   licenses:
     - LGPL-2.1-or-later
+- repo: stalix
+  srcname: lib/alsa
+  binname: lib/alsa
+  visiblename: lib/alsa
+  version: 1.2.16.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: freebsd
   srcname: audio/linux-rl9-alsa-lib-devel
   binname: linux-rl9-alsa-lib-devel
@@ -2284,6 +2232,17 @@
   status: newest
   maintainers:
     - owen@owenrafferty.com
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-alsa-lib
+  binname: lib32-alsa-lib
+  visiblename: lib32-alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: An alternative implementation of Linux sound support (32 bit)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: liguros_stable
   srcname: media-libs/alsa-lib
   visiblename: media-libs/alsa-lib
@@ -2350,25 +2309,6 @@
   categories:
     - media-libs
 - repo: mageia_9
-  subrepo: core/updates
-  srcname: libalsa2
-  binnames:
-    - libalsa2
-    - libalsa-data
-    - libalsa2-devel
-    - libalsa2-docs
-    - libalsa2-debuginfo
-    - libalsa2-debugsource
-  visiblename: libalsa2
-  version: 1.2.9
-  origversion: 2:1.2.9-1.1.mga9
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  licenses:
-    - LGPLv2+
-  categories:
-    - Sound/Utilities
-- repo: mageia_9
   subrepo: core/release
   srcname: libalsa2
   binnames:
@@ -2387,6 +2327,25 @@
     - LGPLv2+
   categories:
     - Sound/Utilities
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: libalsa2
+  binnames:
+    - libalsa2
+    - libalsa-data
+    - libalsa2-devel
+    - libalsa2-docs
+    - libalsa2-debuginfo
+    - libalsa2-debugsource
+  visiblename: libalsa2
+  version: 1.2.9
+  origversion: 2:1.2.9-1.1.mga9
+  status: outdated
+  summary: Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPLv2+
+  categories:
+    - Sound/Utilities
 - repo: mageia_10
   subrepo: core/release
   srcname: libalsa2
@@ -2398,23 +2357,6 @@
   visiblename: libalsa2
   version: 1.2.15.2
   origversion: 2:1.2.15.2-1.mga10
-  status: outdated
-  summary: Advanced Linux Sound Architecture (ALSA) library
-  licenses:
-    - LGPLv2+
-  categories:
-    - Sound/Utilities
-- repo: mageia_10
-  subrepo: core/updates
-  srcname: libalsa2
-  binnames:
-    - libalsa2
-    - libalsa-data
-    - libalsa2-devel
-    - libalsa2-docs
-  visiblename: libalsa2
-  version: 1.2.15.2
-  origversion: 2:1.2.15.2-1.1.mga10
   status: outdated
   summary: Advanced Linux Sound Architecture (ALSA) library
   licenses:
@@ -2447,6 +2389,39 @@
   origversion: 1.2.16.1-1
   status: newest
   summary: An alternative implementation of Linux sound support
+  licenses:
+    - LGPL-2.1-or-later
+- repo: manjaro_unstable
+  subrepo: multilib
+  srcname: lib32-alsa-lib
+  binname: lib32-alsa-lib
+  visiblename: lib32-alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: An alternative implementation of Linux sound support (32 bit)
+  licenses:
+    - LGPL-2.1-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: alsa-lib
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: An alternative implementation of Linux sound support
+  licenses:
+    - LGPL-2.1-or-later
+- repo: nix_stable_24_05
+  srcname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.11
+  origversion: null
+  status: outdated
+  summary: ALSA, the Advanced Linux Sound Architecture libraries
+  maintainers:
+    - las@protonmail.ch
   licenses:
     - LGPL-2.1-or-later
 - repo: nix_stable_24_05
@@ -2821,6 +2796,19 @@
     - themuso@ubuntu.com
   categories:
     - libs
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/libs/alsa-lib
+  binname: aserver
+  visiblename: aserver
+  version: 1.2.9
+  origversion: 1.2.9-1
+  status: outdated
+  maintainers:
+    - thess@kitschensync.net
+    - tripolar@gmx.at
+  categories:
+    - sound
 - repo: openkylin_2_0_bedrock
   subrepo: nile.bedrock-proposed/main
   srcname: alsa-lib
@@ -3031,7 +3019,7 @@
     - libatopology2
   visiblename: alsa
   version: 1.2.16.1
-  origversion: 1.2.16.1-410.1
+  origversion: 1.2.16.1-412.1
   status: newest
   summary: Advanced Linux Sound Architecture
   licenses:
@@ -3051,19 +3039,6 @@
     - tripolar@gmx.at
   categories:
     - libs
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/libs/alsa-lib
-  binname: aserver
-  visiblename: aserver
-  version: 1.2.9
-  origversion: 1.2.9-1
-  status: outdated
-  maintainers:
-    - thess@kitschensync.net
-    - tripolar@gmx.at
-  categories:
-    - sound
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/libs/alsa-lib
@@ -3193,13 +3168,22 @@
     - themuso@ubuntu.com
   categories:
     - libs
+- repo: pclinuxos
+  srcname: libalsa2
+  visiblename: libalsa2
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1pclos2026
+  status: newest
+  summary: Advanced Linux Sound Architecture (ALSA) library
+  categories:
+    - Sound
 - repo: pisi_main
   subrepo: main
   srcname: hardware/sound/alsa-lib
   visiblename: alsa-lib
-  version: 1.2.15.3
+  version: 1.2.16.1
   origversion: null
-  status: outdated
+  status: newest
   summary: The Advanced Linux Sound Architecture (ALSA) library
   maintainers:
     - admins@pisilinux.org
@@ -3278,6 +3262,15 @@
     - themuso@ubuntu.com
   categories:
     - libs
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.5.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: alsa-lib
@@ -3473,13 +3466,15 @@
     - lib64asound-devel
     - lib64topology2
     - alsa-lib-docs
+    - alsa-lib-debuginfo
+    - alsa-lib-debugsource
   visiblename: alsa-lib
-  version: 1.2.13
-  origversion: 2:1.2.13-2
+  version: 1.2.15.2
+  origversion: 2:1.2.15.2-4
   status: outdated
   summary: Config files for Advanced Linux Sound Architecture (ALSA)
   maintainers:
-    - alexander@mezon.ru
+    - m.novosyolov@rosalinux.ru
   licenses:
     - LGPLv2+
   categories:
@@ -3506,6 +3501,24 @@
     - volkerdi@slackware.com
 - repo: slackware_current
   subrepo: slackware
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.16.1
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.5.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
   binname: alsa-lib
   visiblename: alsa-lib
   version: 1.2.16.1
@@ -3629,17 +3642,6 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
-- repo: stalix
-  srcname: lib/alsa
-  binname: lib/alsa
-  visiblename: lib/alsa
-  version: 1.2.16.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
 - repo: stalix_dev
   srcname: bin/aserver
   binname: bin/aserver
@@ -3673,6 +3675,26 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
+- repo: starkos
+  subrepo: main
+  srcname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: ALSA library used by programs (including ALSA Utilities) requiring access to the ALSA sound interface
+  maintainers:
+    - starkos@disroot.org
+- repo: starkos
+  subrepo: multilib
+  srcname: alsa-lib-32
+  visiblename: alsa-lib-32
+  version: 1.2.16.1
+  origversion: 1.2.16.1-1
+  status: newest
+  summary: ALSA library used by programs (including ALSA Utilities) requiring access to the ALSA sound interface
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: alsa-lib
   visiblename: alsa-lib
@@ -3755,29 +3777,6 @@
   categories:
     - sound
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/main
-  srcname: alsa-lib
-  binnames:
-    - libasound2
-    - libasound2-dev
-    - libasound2-data
-    - libasound2-udeb
-    - libasound2-doc
-    - libasound2-plugin-smixer
-    - libatopology2
-    - libatopology-dev
-  visiblename: alsa-lib
-  version: 1.2.6.1
-  origversion: 1.2.6.1-1ubuntu1.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jordi@debian.org
-    - riesebie@lxtec.de
-    - themuso@ubuntu.com
-  categories:
-    - sound
-- repo: ubuntu_22_04
   subrepo: jammy/main
   srcname: alsa-lib
   binnames:
@@ -3792,6 +3791,29 @@
   visiblename: alsa-lib
   version: 1.2.6.1
   origversion: 1.2.6.1-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - jordi@debian.org
+    - riesebie@lxtec.de
+    - themuso@ubuntu.com
+  categories:
+    - sound
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
+  srcname: alsa-lib
+  binnames:
+    - libasound2
+    - libasound2-dev
+    - libasound2-data
+    - libasound2-udeb
+    - libasound2-doc
+    - libasound2-plugin-smixer
+    - libatopology2
+    - libatopology-dev
+  visiblename: alsa-lib
+  version: 1.2.6.1
+  origversion: 1.2.6.1-1ubuntu1.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4081,19 +4103,6 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: alsa-lib
-  visiblename: alsa-lib
-  version: 1.1.6
-  origversion: 1.1.6-3.el8
-  status: legacy
-  summary: The Advanced Linux Sound Architecture (ALSA) library
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
 - repo: centos_6
   subrepo: os
   srcname: alsa-lib
@@ -4144,6 +4153,19 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: alsa-lib
+  visiblename: alsa-lib
+  version: 1.1.6
+  origversion: 1.1.6-3.el8
+  status: legacy
+  summary: The Advanced Linux Sound Architecture (ALSA) library
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: alsa-lib
@@ -4188,28 +4210,6 @@
     - sound
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic-updates/main
-  srcname: alsa-lib
-  binnames:
-    - libasound2
-    - libasound2-dev
-    - libasound2-data
-    - libasound2-udeb
-    - libasound2-doc
-    - libasound2-plugin-smixer
-  visiblename: alsa-lib
-  version: 1.1.3
-  origversion: 1.1.3-5ubuntu0.6
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jordi@debian.org
-    - riesebie@lxtec.de
-    - themuso@ubuntu.com
-  categories:
-    - sound
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: alsa-lib
   binnames:
@@ -4225,6 +4225,28 @@
   status: outdated
   maintainers:
     - pkg-alsa-devel@lists.alioth.debian.org
+    - jordi@debian.org
+    - riesebie@lxtec.de
+    - themuso@ubuntu.com
+  categories:
+    - sound
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
+  srcname: alsa-lib
+  binnames:
+    - libasound2
+    - libasound2-dev
+    - libasound2-data
+    - libasound2-udeb
+    - libasound2-doc
+    - libasound2-plugin-smixer
+  visiblename: alsa-lib
+  version: 1.1.3
+  origversion: 1.1.3-5ubuntu0.6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - jordi@debian.org
     - riesebie@lxtec.de
     - themuso@ubuntu.com
