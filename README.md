@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 25 · **Closed issues**: 316 · **Open issues**: 62 · **Commits**: 4705
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 26 · **Closed issues**: 316 · **Open issues**: 62 · **Commits**: 4705
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 6 | 0 | 3 | 4 |
-| last60d | 2026-09-12 | 0 | 0 | 10 | 0 | 5 | 9 |
-| 90d | 2026-08-13 | 0 | 0 | 12 | 1 | 7 | 10 |
-| last180d | 2026-05-15 | 0 | 0 | 16 | 5 | 10 | 29 |
-| 360d | 2025-11-16 | 0 | 0 | 19 | 16 | 13 | 111 |
-| last720d | 2024-11-21 | 0 | 0 | 19 | 49 | 24 | 213 |
+| 30d | 2026-10-13 | 0 | 0 | 7 | 0 | 3 | 4 |
+| last60d | 2026-09-13 | 0 | 0 | 11 | 0 | 5 | 9 |
+| 90d | 2026-08-14 | 0 | 0 | 13 | 1 | 7 | 10 |
+| last180d | 2026-05-16 | 0 | 0 | 17 | 5 | 10 | 29 |
+| 360d | 2025-11-17 | 0 | 0 | 20 | 16 | 13 | 111 |
+| last720d | 2024-11-22 | 0 | 0 | 20 | 49 | 24 | 213 |
 
 ## Distribution status
 
-Reported by **279** distros on [repology.org](https://repology.org/project/alsa-lib). **82** are ✅ on the latest upstream release, **146** are ⚠️ on an older version.
+Reported by **277** distros on [repology.org](https://repology.org/project/alsa-lib). **82** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:19:27Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:10:56Z._
