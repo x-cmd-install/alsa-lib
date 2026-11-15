@@ -51,12 +51,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 6 | 0 | 2 | 4 |
-| last60d | 2026-09-15 | 0 | 0 | 10 | 0 | 5 | 9 |
-| 90d | 2026-08-16 | 0 | 0 | 13 | 0 | 7 | 10 |
-| last180d | 2026-05-18 | 0 | 0 | 17 | 5 | 10 | 29 |
-| 360d | 2025-11-19 | 0 | 0 | 20 | 16 | 13 | 111 |
-| last720d | 2024-11-24 | 0 | 0 | 20 | 49 | 24 | 213 |
+| 30d | 2026-10-16 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-09-16 | 0 | 0 | 10 | 0 | 5 | 9 |
+| 90d | 2026-08-17 | 0 | 0 | 13 | 0 | 7 | 10 |
+| last180d | 2026-05-19 | 0 | 0 | 17 | 5 | 10 | 28 |
+| 360d | 2025-11-20 | 0 | 0 | 20 | 16 | 13 | 110 |
+| last720d | 2024-11-25 | 0 | 0 | 20 | 48 | 24 | 211 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:14:36Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:24:49Z._
