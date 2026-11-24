@@ -14,12 +14,12 @@ x install alsa-lib
 
 ## Code insight
 
-Total: **110,318** lines of code across **348** files in the top 5 languages.
+Total: **110,384** lines of code across **348** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 85,768 | 23,741 | 9,836 | 150 |
-| CHeader | 13,477 | 7,898 | 2,326 | 87 |
+| C | 85,834 | 23,753 | 9,847 | 150 |
+| CHeader | 13,477 | 7,939 | 2,326 | 87 |
 | Bitbake | 9,300 | 468 | 555 | 79 |
 | Automake | 600 | 9 | 134 | 28 |
 | M4 | 431 | 88 | 50 | 4 |
@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **SAST** (0/10) — no SAST tool detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 502 · **Forks**: 233 · **Open issues**: 377 · **Contributors**: 195
+- **Stars**: 502 · **Forks**: 235 · **Open issues**: 377 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 24 · **Closed issues**: 316 · **Open issues**: 61 · **Commits**: 4705
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 25 · **Closed issues**: 316 · **Open issues**: 61 · **Commits**: 4707
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 9 | 0 | 5 | 4 |
-| 90d | 2026-08-25 | 0 | 0 | 10 | 0 | 6 | 4 |
-| last180d | 2026-05-27 | 0 | 0 | 15 | 5 | 8 | 16 |
-| 360d | 2025-11-28 | 0 | 0 | 18 | 16 | 12 | 100 |
-| last720d | 2024-12-03 | 0 | 0 | 18 | 45 | 23 | 209 |
+| 30d | 2026-10-25 | 0 | 0 | 5 | 0 | 0 | 2 |
+| last60d | 2026-09-25 | 0 | 0 | 10 | 0 | 5 | 6 |
+| 90d | 2026-08-26 | 0 | 0 | 11 | 0 | 6 | 6 |
+| last180d | 2026-05-28 | 0 | 0 | 16 | 5 | 8 | 18 |
+| 360d | 2025-11-29 | 0 | 0 | 19 | 16 | 12 | 102 |
+| last720d | 2024-12-04 | 0 | 0 | 19 | 44 | 23 | 211 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for alsa-lib lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:51:20Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:44:51Z._
